@@ -3983,3 +3983,11 @@ input, select, textarea {
 		margin-top: 1.5em !important;
 	}
 }
+
+@media screen and (max-width: 480px) {
+
+	#banner img[src*="maria"] {
+		display: none !important;
+	}
+
+}
