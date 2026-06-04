@@ -3952,8 +3952,10 @@ input, select, textarea {
 		}
 
 @media screen and (max-width: 736px) {
-	#banner .inner > div {
-		display: block !important;
+	#banner .inner > div > div:last-child {
+		margin-top: 1.5em !important;
+		margin-left: 0 !important;
+		text-align: center !important;
 	}
 
 	#banner h1 {
