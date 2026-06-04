@@ -3950,3 +3950,33 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+@media screen and (max-width: 736px) {
+	#banner .inner > div {
+		display: block !important;
+	}
+
+	#banner h1 {
+		font-size: 2.2em;
+		line-height: 1.15;
+	}
+
+	#banner .image,
+	#banner img[src*="maria"] {
+		display: none;
+	}
+
+	#banner .content {
+		display: block;
+	}
+
+	#banner .content p {
+		font-size: 0.75em;
+		line-height: 1.6;
+		letter-spacing: 0.18em;
+	}
+
+	#banner .actions {
+		margin-top: 1.5em;
+	}
+}
