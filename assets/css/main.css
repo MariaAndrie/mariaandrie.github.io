@@ -3985,6 +3985,20 @@ input, select, textarea {
 }
 
 @media screen and (max-width: 480px) {
+	#banner .inner > div {
+		display: block !important;
+	}
+
+	#banner .inner > div > div:first-child {
+		width: 100% !important;
+	}
+
+	#banner .inner > div > div:last-child {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
 
 	#banner img[src*="maria"] {
 		display: none !important;
