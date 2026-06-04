@@ -139,9 +139,40 @@
 										<h2>Contacts</h2>
 									</header>
 									<ul class="icons">								
-										<li><a href="mailto:maria.andrie.se@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-										<li><a href="https://www.linkedin.com/in/mariaandrie/" class="icon brands alt fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/MariaAndrie" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+										<li>
+											<a href="mailto:maria.andrie.se@gmail.com"
+											class="icon solid alt fa-envelope"
+											onclick="gtag('event', 'email_click', {
+												event_category: 'contact',
+												event_label: 'email'
+											});">
+												<span class="label">Email</span>
+											</a>
+										</li>
+
+										<li>
+											<a href="https://www.linkedin.com/in/mariaandrie/"
+											class="icon brands alt fa-linkedin-in"
+											target="_blank"
+											onclick="gtag('event', 'linkedin_click', {
+												event_category: 'contact',
+												event_label: 'linkedin'
+											});">
+												<span class="label">LinkedIn</span>
+											</a>
+										</li>
+
+										<li>
+											<a href="https://github.com/MariaAndrie"
+											class="icon brands alt fa-github"
+											target="_blank"
+											onclick="gtag('event', 'github_click', {
+												event_category: 'contact',
+												event_label: 'github_profile'
+											});">
+												<span class="label">GitHub</span>
+											</a>
+										</li>
 									</ul>
 								</div>
 							</section>
