@@ -3957,26 +3957,25 @@ input, select, textarea {
 	}
 
 	#banner h1 {
-		font-size: 2.2em;
-		line-height: 1.15;
+		font-size: 2.2em !important;
+		line-height: 1.15 !important;
 	}
 
-	#banner .image,
 	#banner img[src*="maria"] {
-		display: none;
+		display: none !important;
 	}
 
 	#banner .content {
-		display: block;
+		display: block !important;
 	}
 
 	#banner .content p {
-		font-size: 0.75em;
-		line-height: 1.6;
-		letter-spacing: 0.18em;
+		font-size: 0.75em !important;
+		line-height: 1.6 !important;
+		letter-spacing: 0.18em !important;
 	}
 
 	#banner .actions {
-		margin-top: 1.5em;
+		margin-top: 1.5em !important;
 	}
 }
