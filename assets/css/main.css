@@ -3952,16 +3952,22 @@ input, select, textarea {
 		}
 
 @media screen and (max-width: 736px) {
+	#banner .inner > div {
+		display: grid !important;
+		grid-template-columns: 1fr 90px;
+		gap: 1em;
+		align-items: center;
+	}
+	#banner h1 {
+		grid-column: 1 / 3;
+		font-size: 2.2em !important;
+		line-height: 1.15 !important;
+	}
 	#banner .inner > div > div:last-child {
 		margin-top: 1.5em !important;
 		margin-left: 0 !important;
 		text-align: center !important;
-	}
-
-	#banner h1 {
-		font-size: 2.2em !important;
-		line-height: 1.15 !important;
-	}
+	}	
 	
 	#banner .content {
 		display: block !important;
